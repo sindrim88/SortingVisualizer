@@ -1,0 +1,21 @@
+.sliders{
+	line-height: 0px;
+}
+
+
+.slide {
+	padding-right: 50px;
+	float:left;
+}
+
+.slidecontainer{
+
+	padding-right: 50px;
+	float:left;
+}
+
+.start{
+   padding-right: 50px;
+   float:bottom;
+   padding-bottom: 40;
+}
