@@ -355,8 +355,6 @@ function clear_Reset(){
 
 
 function check_Sorting_algo(id){
-
-	
 	if (id == "bubble") {
 		console.log("Bubblesort selected");
 	}
@@ -377,7 +375,4 @@ function check_Sorting_algo(id){
 	else{
 		console.log("Still sorting buddy");
 	}
-
-
-
 }
