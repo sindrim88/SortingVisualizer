@@ -376,5 +376,4 @@ function check_Sorting_algo(id){
 	else{
 		console.log("Still sorting buddy");
 	}
-
 }
