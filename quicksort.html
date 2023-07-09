@@ -1,52 +1,53 @@
 <!DOCTYPE>
-	<html>
-		<head>
-			<meta charset = "UTF-8">
-			<title>Quicksort</title>
-		</head>
-		<head>
-  </head>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Quicksort</title>
+</head>
+
+<head>
+</head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<body>
-	<link rel="stylesheet" href="css.css">
 
-	<div class = "sliders">
-		
+<body>
+	<link rel="stylesheet" href="./css.css">
+
+	<div class="sliders">
+
 		<div class="slidecontainer">
 			<p>Select the number of elements that you want to sort.</p>
-		  	<input type="range" min="0" max="400" value="400" class="slider" id="myRange">
-		  	<p>Number of elements: <span id="demo"></span></p>
+			<input type="range" min="0" max="400" value="400" class="slider" id="myRange">
+			<p>Number of elements: <span id="demo"></span></p>
 		</div>
 
 		<div class="slide">
-		  	<p>Set animation lag</p>
-		 	<input type="range" min="10" max="100" value="10" class="slider" id="speed">
-		  	<p>Animation lag: <span id="out_speed"></span></p>
+			<p>Set animation lag</p>
+			<input type="range" min="10" max="100" value="10" class="slider" id="speed">
+			<p>Animation lag: <span id="out_speed"></span></p>
 		</div>
 	</div>
 
 	<div>
-		<button id="quick" onClick="check_Sorting_algo(this.id)">Quicksort</button>
-		<button id="bubble" onClick="check_Sorting_algo(this.id)">Bubblesort</button>
-		<button id="merge" onClick="check_Sorting_algo(this.id)">Mergesort</button>
+		<button id="quick" onClick="check_Sorting_algo('quick')">Quicksort</button>
+		<button id="bubble" onClick="check_Sorting_algo('bubble')">Bubblesort</button>
+		<button id="merge" onClick="check_Sorting_algo('merge')">Mergesort</button>
 	</div>
-		
-	
 
-	<div class ="refresh-page">
- 		<a href = "quicksort.html">Stop sorting-refresh</a>
+	<div class="refresh-page">
+		<a href="quicksort.html">Stop sorting-refresh</a>
 	</div>
 	<br>
-	<canvas id="myCanvas" width="1200" height="600" 
-		style="border:1px solid black;">
+	<canvas id="myCanvas" width="1200" height="600" style="border:1px solid black;">
 		Sorry, your browser does not support the HTML5 canvas tag.
-	</canvas>	
-	
-	<div id = "output"></div>
-	<script src = "quicksort.js"></script>
+	</canvas>
 
-		</body>
+	<div id="output"></div>
+	<script src="./quicksort.js"></script>
+
+</body>
+
 </html>

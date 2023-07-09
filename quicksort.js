@@ -319,7 +319,6 @@ function re_draw(i, j, counter, width){
 		}, (ANIMATION_SPEED_MS));
 	    }, counter * ANIMATION_SPEED_MS);	   
 
-
 }
 
 function main(arr, width, id){
@@ -356,7 +355,7 @@ function clear_Reset(){
 
 function check_Sorting_algo(id){
 
-	
+
 	if (id == "bubble") {
 		console.log("Bubblesort selected");
 	}
@@ -377,7 +376,5 @@ function check_Sorting_algo(id){
 	else{
 		console.log("Still sorting buddy");
 	}
-
-
 
 }
